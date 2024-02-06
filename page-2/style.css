@@ -8,10 +8,6 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-body {
-    background-color: rgb(230, 236, 215);
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -22,7 +18,7 @@ header nav {
     height: 70px;
     position: fixed;
     top: 0;
-    background-color: white;
+    background-color: rgb(230, 236, 215);
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -78,10 +74,10 @@ h1 {
 .card {
     width: 600px;
     background-color: white;
+    border: 1px solid rgb(72, 96, 72);
     border-radius: 2rem;
     margin: 2rem;
     display: flex;
-    /* flex-wrap: wrap; */
     transition: .5s;
 }
 
