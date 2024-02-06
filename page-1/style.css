@@ -224,6 +224,7 @@ input[type="email"] {
 .b-two {
     width: 100px;
     margin: 5px;
+    align-self: flex-start;
 }
 
 .img-f {
@@ -243,5 +244,20 @@ input[type="email"] {
     }
     input[type="email"] {
         width: 220px;
+    }
+    .b-two {
+        align-self: center;
+    }
+}
+
+@media (max-width:425px) {
+    footer {
+        font-size: 13px;
+    }
+    input[type="email"] {
+        width: 200px;
+    }
+    .b-two {
+        width: 80px;
     }
 }
